@@ -1,6 +1,6 @@
 database:
-  host: localhost
+  host: db
   port: 5432
-  username: admin
-  password: "password"
+  username: cihan
+  password: berkcihancengiz
   databaseName: stories
