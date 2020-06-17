@@ -5,7 +5,6 @@ ADD pubspec.* /app/
 RUN pub get --no-precompile
 ADD . /app/
 RUN pub get --offline --no-precompile
-RUN pub global activate aqueduct
 
 WORKDIR /app
 EXPOSE 80
