@@ -4,7 +4,11 @@ services:
     build: .
     ports:
       - "80:80"
+<<<<<<< HEAD
       
+=======
+
+>>>>>>> 462a61759fc14cedafeabfc51de37f34a986f62c
   db:
     image: "postgres:11"
     container_name: "postgres_database"
