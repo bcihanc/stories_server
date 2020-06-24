@@ -4,9 +4,7 @@ services:
     build: .
     ports:
       - "80:80"
-    depends_on:
-      - db
-
+      
   db:
     image: "postgres:11"
     container_name: "postgres_database"

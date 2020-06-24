@@ -1,11 +1,11 @@
-FROM google/dart:2.7.2
+FROM google/dart
 
 WORKDIR /app
 ADD pubspec.* /app/
 RUN pub get --no-precompile
 ADD . /app/
 RUN pub get --offline --no-precompile
-RUN pub global activate aqueduct
+# RUN pub global activate aqueduct
 
 WORKDIR /app
 EXPOSE 80

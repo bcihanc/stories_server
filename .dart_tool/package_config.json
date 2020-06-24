@@ -68,6 +68,12 @@
       "languageVersion": "2.3"
     },
     {
+      "name": "dio",
+      "rootUri": "file:///Users/cihan/.pub-cache/hosted/pub.dartlang.org/dio-3.0.9",
+      "packageUri": "lib/",
+      "languageVersion": "2.4"
+    },
+    {
       "name": "front_end",
       "rootUri": "file:///Users/cihan/.pub-cache/hosted/pub.dartlang.org/front_end-0.1.14",
       "packageUri": "lib/",
@@ -362,7 +368,7 @@
       "languageVersion": "2.0"
     }
   ],
-  "generated": "2020-06-09T09:33:56.408863Z",
+  "generated": "2020-06-17T16:03:00.683538Z",
   "generator": "pub",
   "generatorVersion": "2.7.2"
 }
